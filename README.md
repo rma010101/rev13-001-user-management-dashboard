@@ -19,6 +19,8 @@ A simple user management application built with React and Vite. This app demonst
 ### 3. `AddUserForm`
 - Controlled form for adding new users.
 - Fields: Name, Email, Phone, Avatar filename.
+- Includes centered Add User and Cancel buttons at the bottom of the form.
+- The Cancel button navigates back to the main user list without adding a user.
 - On submit, adds the user and navigates back to the user list.
 
 ### 4. Modal Portal Pattern

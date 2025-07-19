@@ -40,7 +40,10 @@ const AddUserForm = ({ addUser, navigate }) => {
           <label>Avatar filename:</label>
           <input type="text" name="avatar" value={avatar} onChange={e => setAvatar(e.target.value)} placeholder="e.g. avatar1.png" />
         </div>
-        <button type="submit">Add User</button>
+        <div style={{ display: 'flex', gap: '1em', marginTop: '1em', justifyContent: 'center' }}>
+          <button type="submit">Add User</button>
+          <button type="button" onClick={() => navigate('/')}>Cancel</button>
+        </div>
       </form>
     </>
   );
