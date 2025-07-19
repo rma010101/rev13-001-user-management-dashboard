@@ -1,0 +1,38 @@
+/* Add User button styles */
+.button-add {
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.2em 0.7em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.button-add:hover {
+  background: #219150;
+}
+.button-update {
+  background: #f1c40f;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 0.2em 0.7em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.button-update:hover {
+  background: #e0900e;
+}
+
+.button-delete {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.2em 0.7em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.button-delete:hover {
+  background: #c0392b;
+}
